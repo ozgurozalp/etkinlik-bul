@@ -1,4 +1,10 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from 'vue';
+import App from './App.vue';
 
-createApp(App).mount('#app')
+// for state management
+import { createPinia } from 'pinia';
+
+// for styles
+import './styles/style.pcss';
+
+createApp(App).use(createPinia()).mount('#app');

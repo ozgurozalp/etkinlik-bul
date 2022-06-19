@@ -1,0 +1,1 @@
+# Etkinlik bulma uygulaması

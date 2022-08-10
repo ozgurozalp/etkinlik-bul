@@ -1,0 +1,62 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+html, body, #app {
+    height: 100%;
+    max-height: 100%;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+img {
+    max-width: 100%;
+}
+p,h1,h2,h3,h4,h5,h6,ul,ol,dl,figure,blockquote {
+    margin-block: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    line-height: 1.25;
+}
+
+h1,h2,h3 {
+    font-weight: lighter;
+    letter-spacing: .05em;
+}
+
+h1 {
+    font-size: clamp(3rem, 6vmin, 4rem);
+    max-inline-size: 17ch;
+}
+
+h2 {
+    font-size: clamp(2rem, 4vmin, 3rem);
+    max-inline-size: 25ch;
+}
+
+h3 {
+    font-size: clamp(1.75rem, 3vmin, 2rem);
+    max-inline-size: 30ch;
+}
+
+h4 {
+    font-size: clamp(1.5rem, 3vmin, 1.75rem);
+    max-inline-size: 30ch;
+}
+h5 {
+    font-size: clamp(1.25rem, 2.5vmin, 1.5rem);
+    max-inline-size: 35ch;
+}
+h6 {
+    font-size: clamp(1.1rem, 2vmin, 1.25rem);
+    max-inline-size: 40ch;
+}
+input:is([type="search"], [type="text"]) {
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0 40px 60px rgba(211, 209, 216, 0.5);
+    border-radius: 12px;
+    padding: 1rem;
+}

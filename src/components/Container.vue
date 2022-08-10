@@ -8,6 +8,7 @@
 .container {
 	width: 100%;
 	margin-inline: auto;
+	padding-inline: 1rem;
 
 	@media (--sm) {
 		max-width: 640px;
